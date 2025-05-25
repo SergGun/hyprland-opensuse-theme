@@ -1,8 +1,8 @@
 window {
   background-color: #1e1e2e;
   color: #a6e3a1;
-  font-family: JetBrainsMono Nerd Font;
-  border-radius: 10px;
+  font-family: "JetBrainsMono Nerd Font";
+  font-size: 14px;
 }
 #input {
   margin: 5px;

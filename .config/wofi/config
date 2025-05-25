@@ -1,3 +1,5 @@
+show-icons=true
+insensitive=true
 show=drun
 term=foot
 columns=1

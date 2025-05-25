@@ -1,0 +1,38 @@
+* {
+  all: unset;
+  font-family: "JetBrainsMono Nerd Font";
+  font-size: 14px;
+}
+
+.widget {
+  padding: 0 8px;
+  border-radius: 6px;
+  background-color: #313244;
+  color: #a6e3a1;
+  margin-left: 6px;
+}
+
+.bar {
+  background-color: #1e1e2e;
+  color: #a6e3a1;
+  padding: 0 10px;
+  border-bottom: 1px solid #89b4fa;
+}
+
+.os {
+  color: #89dceb;
+  font-weight: bold;
+}
+
+button {
+  padding: 2px 8px;
+  margin-left: 6px;
+  border-radius: 6px;
+  background-color: #313244;
+  color: #f5e0dc;
+
+  &:hover {
+    background-color: #89b4fa;
+    color: #1e1e2e;
+  }
+}

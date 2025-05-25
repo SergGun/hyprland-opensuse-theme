@@ -1,0 +1,4 @@
+(box :class "widget volume" :children [
+  (label :text "")
+  (label :text "$(pamixer --get-volume)%" :interval 2)
+])

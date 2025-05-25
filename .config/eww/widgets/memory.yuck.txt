@@ -1,0 +1,4 @@
+(box :class "widget mem" :children [
+  (label :text "󰍛")
+  (label :text "$(free -h | awk '/Mem:/ { print $3 \"/\" $2 }')" :interval 5)
+])

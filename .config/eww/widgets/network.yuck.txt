@@ -1,0 +1,4 @@
+(box :class "widget net" :children [
+  (label :text "󰤨")
+  (label :text "$(nmcli -t -f ACTIVE,SSID dev wifi | grep yes | cut -d: -f2)" :interval 10)
+])
