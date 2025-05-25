@@ -1,0 +1,16 @@
+(defwindow bar
+  :monitor 0
+  :geometry (geometry :x 0 :y 0 :width 1920 :height 32)
+  :anchor "top center"
+  :exclusive true
+  :stacking "fg"
+  :name "topbar"
+  (box :class "bar"
+    :spacing 10
+    (label :text "🟢 openSUSE Catppuccin" :class "title")
+    (button :onclick "zypper dup" "🔄")
+    (button :onclick "systemctl poweroff" "⏻")
+    (button :onclick "systemctl reboot" "🔁")
+    (button :onclick "eww close bar" "❌")
+  )
+)

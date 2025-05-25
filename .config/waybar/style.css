@@ -1,1 +1,18 @@
-/* Catppuccin Green style */
+* {
+    font-family: JetBrainsMono Nerd Font;
+    font-size: 13px;
+    color: #a6e3a1;
+  }
+  window {
+    background-color: #1e1e2e;
+    border-radius: 10px;
+  }
+  #workspaces button {
+    background: #a6e3a1;
+    color: #1e1e2e;
+    margin: 2px;
+    border-radius: 5px;
+  }
+  #custom-menu {
+    padding: 0 10px;
+  }

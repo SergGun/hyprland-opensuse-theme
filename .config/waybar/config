@@ -1,1 +1,18 @@
-{}
+{
+  "layer": "top",
+  "position": "top",
+  "modules-left": ["custom/menu", "hyprland/workspaces"],
+  "modules-center": ["clock"],
+  "modules-right": ["cpu", "memory", "pulseaudio", "network", "custom/updates", "tray"],
+
+  "custom/menu": {
+    "format": "󰍜",
+    "on-click": "wofi --show drun"
+  },
+
+  "custom/updates": {
+    "format": "󰚰 {}",
+    "exec": "zypper lu | grep -c '^v'",
+    "interval": 300
+  }
+}
